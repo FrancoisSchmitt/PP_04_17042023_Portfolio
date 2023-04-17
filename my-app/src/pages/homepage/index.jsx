@@ -1,4 +1,4 @@
-import Works from "../../components/works";
+import Works from "../../components/career/works"
 
 export default function Homepage() {
     return (
