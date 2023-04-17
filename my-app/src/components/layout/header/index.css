@@ -1,0 +1,23 @@
+.header, .header-nav, .header-list {
+    display: flex;
+}
+
+.header, .header-nav {
+    align-items: center;
+    height: 10vh;
+    width: 60%;
+}
+
+.header {
+    justify-content: right;
+    margin-left: auto;
+}
+
+.header-list {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.header-list li{
+    font-weight: 700;
+}
