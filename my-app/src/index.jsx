@@ -7,8 +7,13 @@ import './normalize.css';
 import reportWebVitals from './reportWebVitals';
 
 import Homepage from './pages/homepage';
+import ContactPage from './pages/contact';
+import StudyPage from './pages/study';
+import WorksPage from './pages/work';
+
 import Header from './components/layout/header';
 import Footer from './components/layout/footer';
+import ProjectPage from './pages/project';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,8 +22,12 @@ root.render(
                   <Header />
                   <Routes>
                         <Route path="/" element={<Homepage />} />
+                        <Route path="/project" element={<ProjectPage />} />
+                        <Route path="/study" element={<StudyPage />} />
+                        <Route path="/works" element={<WorksPage />} />
+                        <Route path="/contact" element={<ContactPage />} />
                   </Routes>
-                  {/* <Footer /> */}
+                  <Footer />
             </BrowserRouter>
       </React.StrictMode>
 );

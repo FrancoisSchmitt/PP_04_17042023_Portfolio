@@ -8,6 +8,23 @@ export default function Header() {
                         <ul className="header-list">
                               <li>
                                     <NavLink
+                                          to="/"
+                                          className={({
+                                                isActive,
+                                                isPending,
+                                          }) =>
+                                                isPending
+                                                      ? 'pending'
+                                                      : isActive
+                                                      ? 'active'
+                                                      : ''
+                                          }
+                                    >
+                                          Home
+                                    </NavLink>
+                              </li>
+                              <li>
+                                    <NavLink
                                           to="/study"
                                           className={({
                                                 isActive,
@@ -25,7 +42,7 @@ export default function Header() {
                               </li>
                               <li>
                                     <NavLink
-                                          to="/"
+                                          to="/works"
                                           className={({
                                                 isActive,
                                                 isPending,
@@ -42,7 +59,7 @@ export default function Header() {
                               </li>
                               <li>
                                     <NavLink
-                                          to="/study"
+                                          to="/project"
                                           className={({
                                                 isActive,
                                                 isPending,
@@ -59,7 +76,7 @@ export default function Header() {
                               </li>
                               <li>
                                     <NavLink
-                                          to="/study"
+                                          to="/contact"
                                           className={({
                                                 isActive,
                                                 isPending,
