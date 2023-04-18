@@ -1,6 +1,3 @@
-export default function StudyPage(){
-    return (
-        <>
-        </>
-    )
+export default function StudyPage() {
+      return <></>;
 }
