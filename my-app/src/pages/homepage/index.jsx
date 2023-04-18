@@ -1,18 +1,10 @@
 import Works from '../../components/career/works';
-import CardProject from '../../components/currentObject/cardProject';
+import Project from '../../components/project';
 export default function Homepage() {
       return (
             <>
-                  {/* <Works /> */}
-                  <CardProject />
-                  <CardProject />
-                  <CardProject />
-                  <CardProject />
-                  <CardProject />
-                  <CardProject />
-                  <CardProject />
-                  <CardProject />
-                  <CardProject />
+                  <Works />
+                  <Project />
             </>
       );
 }

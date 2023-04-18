@@ -3,18 +3,20 @@ import rec from '../../../assets/Rectangle30.png';
 export default function CardProject() {
       return (
             <>
-                  <div className="card-container">
-                        <ul className="card-list">
+                  <div className="project-card-container">
+                        <ul className="project-card-list">
                               <li>
                                     <img src={rec} alt="" />
                               </li>
                         </ul>
-                        <ul className="card-list card-content">
+                        <ul className="project-card-list project-card-content">
                               <li>
                                     <h1> Photographer</h1>
                               </li>
-                              <li className="card-list-desc">
-                                    <span className="card-date">2023</span>{' '}
+                              <li className="project-card-list-desc">
+                                    <span className="project-card-date">
+                                          2023
+                                    </span>{' '}
                                     <small>Photographer</small>
                               </li>
                               <li>
@@ -28,7 +30,7 @@ export default function CardProject() {
                                           velit maxime illo sapiente.
                                     </p>
                               </li>
-                              <li className="card-list-tags">
+                              <li className="project-card-list-tags">
                                     <span>HTML</span>
                                     <span>CSS</span>
                                     <span>Redux/Toolkit</span>
