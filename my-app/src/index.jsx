@@ -12,7 +12,6 @@ import StudyPage from './pages/study';
 import WorksPage from './pages/work';
 import ThermsOfUsage from './pages/thermsOfuse';
 
-
 import Header from './components/layout/header';
 import Footer from './components/layout/footer';
 import ProjectPage from './pages/project';
@@ -28,7 +27,10 @@ root.render(
                         <Route path="/study" element={<StudyPage />} />
                         <Route path="/works" element={<WorksPage />} />
                         <Route path="/contact" element={<ContactPage />} />
-                        <Route path="/therms-of-usage" element={<ThermsOfUsage />} />
+                        <Route
+                              path="/therms-of-usage"
+                              element={<ThermsOfUsage />}
+                        />
                   </Routes>
                   <Footer />
             </BrowserRouter>

@@ -18,7 +18,7 @@ export default function Footer() {
                                     />
                               </li>
                         </ul>
-                        <ul className='footer-list-link'>
+                        <ul className="footer-list-link">
                               <li>
                                     <NavLink
                                           to="https://github.com/FrancoisSchmitt"

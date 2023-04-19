@@ -1,4 +1,4 @@
-import './index.css'
+import './index.css';
 import { NavLink } from 'react-router-dom';
 
 export default function ButtonMailto(mailContent) {
@@ -6,18 +6,17 @@ export default function ButtonMailto(mailContent) {
 
       return (
             <>
-                  <button className='button-mailto'>
-
-                  <NavLink
-                        to="#"
-                        onClick={(e) => {
-                              window.location.href = mailto;
-                              e.preventDefault();
-                        }}
+                  <button className="button-mailto">
+                        <NavLink
+                              to="#"
+                              onClick={(e) => {
+                                    window.location.href = mailto;
+                                    e.preventDefault();
+                              }}
                         >
-                        {label}
-                  </NavLink>
-                        </button>
+                              {label}
+                        </NavLink>
+                  </button>
             </>
       );
 }
