@@ -1,6 +1,8 @@
 import './index.css';
 import rec from '../../../assets/Rectangle30.png';
-export default function CardProject() {
+
+export default function CardProject(datas) {
+      const { data, link } = datas;
       return (
             <>
                   <div className="project-card-container">
@@ -13,6 +15,11 @@ export default function CardProject() {
                               <li>
                                     <h1> Photographer</h1>
                               </li>
+                              <li className="project-card-list-icon">
+                                    {' '}
+                                    {data} {link}
+                              </li>
+
                               <li className="project-card-list-desc">
                                     <span className="project-card-date">
                                           2023

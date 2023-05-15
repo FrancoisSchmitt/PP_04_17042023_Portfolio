@@ -8,8 +8,8 @@ export default function AboutMe() {
                         <ul className="aboutme-content aboutme-wrap">
                               <li>
                                     <h1>
-                                          Salut, je suis François, Développeur
-                                          Front-End
+                                          Salut, je suis François Schmitt,
+                                          Développeur Front-End
                                     </h1>
                               </li>
                               <li>

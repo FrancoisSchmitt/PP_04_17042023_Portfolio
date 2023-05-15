@@ -17,7 +17,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      gap: 8%;
+      gap: 4%;
 }
 
 .project-card-content h1 {
@@ -59,4 +59,15 @@
 
 .project-card-list-desc {
       gap: 4%;
+}
+
+.project-card-list-icon a svg {
+      width: 30px;
+      height: 30px;
+      color: black;
+}
+
+.project-card-list-icon {
+      display: flex;
+      gap: 3%;
 }

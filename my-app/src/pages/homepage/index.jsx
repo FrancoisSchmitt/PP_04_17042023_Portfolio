@@ -4,14 +4,13 @@ import Card from '../../components/currentObject/card';
 import AboutMe from '../../components/about-me';
 import CardProject from '../../components/currentObject/cardProject';
 
-
 export default function Homepage() {
       return (
             <>
-                  <section className='aboutme-section'>
+                  <section className="aboutme-section">
                         <AboutMe />
                   </section>
-                  <section className='card-section'>
+                  <section className="card-section">
                         <div className="background-homepage-card">
                               <div className="homepage-card-container">
                                     <Card
@@ -37,7 +36,7 @@ export default function Homepage() {
                   </section>
                   <section className="project-section">
                         <h1 className="section-project-title">
-                              Projets réaliser 
+                              Projets réaliser
                         </h1>
                         <CardProject />
                         <CardProject />
